@@ -1,9 +1,12 @@
 .skip{
     color: rgb(255, 123, 0);
 }
-section{
+.section-f{
     display: flex;
-    margin-top: 100px;                                      
+    margin-top: 100px; 
+    margin-bottom:40px; 
+    background-image: url(images/shapes/Frame\ 57.jpg);    
+    background-repeat: no-repeat;                                
 }
 .mid-width{
     width: 50%;
@@ -44,11 +47,14 @@ p{
     margin-right: 80px;
     font-size:2px;
 }
-.back{
+.section-s{
+    display: flex;
+
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    border: 0;
+
 }
 .contact{
     background-image: linear-gradient(rgb(221, 189, 130) , rgb(255, 123, 0));
@@ -57,4 +63,45 @@ p{
     text-decoration: none;
     border-radius: 40px;
     padding: 10px 30px;
+}
+#r{
+    text-align: center;
+}
+#l{
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 15px;
+}
+.fl{
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.cov-f{
+    width: 50%;
+    padding: 20px;
+    box-shadow: 20px 20px 50px 15px grey;
+    margin: 20px 20px 5px 20px;
+    border-radius: 20px;
+    
+}
+.cov-f img{
+    width: 80%;
+    padding: 20px;
+ margin: 20px 20px 5px 20px;
+
+}
+.eat{
+    color: rgb(255, 123, 0);
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+#fp{
+    color: white;
 }
